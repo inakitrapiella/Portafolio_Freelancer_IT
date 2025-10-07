@@ -16,12 +16,7 @@ html{
 
 /** Scroll Snap **/
 
-.servicios,
-.navegacion-principal,
-.Formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-}
+
 
 *, *:before, *:after {
     box-sizing: inherit;

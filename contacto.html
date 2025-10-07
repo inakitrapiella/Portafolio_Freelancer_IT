@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contacto – Iñaki Trapiella Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h1 class="Titulo">Iñaki Trapiella <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg" role="navigation" aria-label="Principal">
+    <nav class="navegacion-principal contenedor">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="contacto.html" aria-current="page">Contactos</a>
+    </nav>
+    </div>
+
+    <section class="hero" style="background-image:url(img/hero.jpg)">
+    <div class="contenido-hero">
+        <h2>Hablemos de tu proyecto</h2>
+        <p>Mar del Plata, Argentina</p>
+        <a class="boton" href="mailto:inaki@email.com" rel="noopener">Enviar correo</a>
+    </div>
+    </section>
+
+    <main class="contenedor sombra">
+    <h2>Contacto</h2>
+
+    <form class="Formulario" action="#" method="post" autocomplete="on">
+        <fieldset>
+        <legend>Contactame llenando todos los campos</legend>
+
+        <div class="contenedor-campos">
+            <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" class="input-text" type="text" placeholder="Nombre" required>
+            </div>
+
+            <div class="campo">
+            <label for="telefono">Telefono</label>
+            <input id="telefono" name="telefono" class="input-text" type="tel" placeholder="Número" inputmode="tel" required>
+            </div>
+
+            <div class="campo">
+            <label for="email">Correo</label>
+            <input id="email" name="email" class="input-text" type="email" placeholder="tu@email.com" required>
+            </div>
+
+            <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" class="input-text" placeholder="Contame sobre tu idea..." required></textarea>
+        </div>
+        </div>
+
+        <div class="alinear-derecha flex">
+            <button class="boton w-sm-100" type="submit">Enviar</button>
+        </div>
+        </fieldset>
+    </form>
+
+    <section style="margin-top:2rem;">
+    <h2>Tambien podes encontrarme</h2>
+    <ul style="max-width:70ch;margin:1rem auto;line-height:1.8;">
+    <li>
+        <a href="www.linkedin.com/in/iñaki-trapiella-514232279" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/inakitrapiella" target="_blank" rel="noopener noreferrer">
+        GitHub
+        </a>
+    </li>
+    <li>
+        <a href="iakitrapiella27@hotmail.com">
+        Mail
+        </a>
+    </li>
+    <li>
+        <a href="https://wa.me/5492235504121" target="_blank" rel="noopener noreferrer">
+        +54 9 2235504121
+        </a>
+    </li>
+    </ul>
+</section>
+
+    </main>
+
+    <footer class="footer">
+    <p>Todos los derechos reservados, Iñaki Trapiella Freelancer</p>
+    </footer>
+</body>
+</html>

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iñaki Trapiella Freelancer</title>
     <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="./contacto.html" as="contacto">
+    <link rel="preload" href="./clientes.html" as="clientes">
+    <link rel="preload" href="./nosotros.html" as="nosotros">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="preload" href="css/style.css" as="style">
@@ -16,14 +19,14 @@
         <h1 class="Titulo">Iñaki Trapiella <span>Freelancer</span></h1>
     </header>
 
-    <div class="nav-bg">
+    <div class="nav-bg" role="navigation" aria-label="Principal">
     <nav class="navegacion-principal contenedor">
-    <a href="#">Inicio</a>
-    <a href="#">Nosotros</a>
-    <a href="#">Clientes</a>
-    <a href="#">Contactos</a>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="clientes.html" aria-current="page">Clientes</a>
+        <a href="contacto.html">Contactos</a>
     </nav>
-</div>
+    </div>
 
     <section class="hero">
         <div class="contenido-hero">
